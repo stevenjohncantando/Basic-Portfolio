@@ -1,39 +1,81 @@
-.container { 
-    width: 960px;
-    margin: auto;
-    background: white;
-    padding: 10px;
- }
- 
-
-.content {
-        width: 960px;
-        margin: auto;
-        background-color: #ffffff;
-        position: absolute;
-        border-style: solid;
-        border-color: #dddddd;
-}
-
-header {
-    position: relative;
-    width: 310px;
-    border: 2px solid;
-    border-color: #cccccc;
-    background-color:#4aaaa5;
-    margin: 10px;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 28px;
+.header a {
+    float: right;
+    color: black;
     text-align: center;
+    text-decoration: none;
+    font-size: 20px; 
+    padding: 12px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header {
+    position: relative;
+    padding: 0%;
+    margin: 0%;
+    float: left;
+    width: 100%;
+    background-color: white;
+    height: 100px;
+  }
+  
+  .name {
+    vertical-align: middle;
+    line-height: 90px; 
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
-    }
-
-
-h2 {
-    color: #4aaaa5;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
+    background-color: #777777;
+    white-space: nowrap;
+    position: absolute;
+    float: left;
+    width: 250px;
+    height: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid #cccccc;
+    left: 210px;
+  }
+  
+  .header-right {
+    vertical-align: middle;
+    line-height: 90px; 
+    text-align: center;
+    float: right;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #777777;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .container {
+    position: relative;
+    width: 960px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    align-content: center;
+    overflow: auto;
+    margin: auto;
+    padding: 20px;
+    top: 20px;
+  }
